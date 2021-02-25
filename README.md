@@ -4,3 +4,9 @@
 * 애플리케이션에 여러개의 `DataSource`를 정의하는 방법
 * `@Transactional` 어노테이션의 타입에 따라서 `Master` 또는 `Slave` 서버로 자동으로 라우팅하도록 설정
 * 여러개의 `DataSource`를 사용하지만 애플리케이션의 입장에서는 하나의 추상화된 `DataSource`에 접근할 수 있도록 구성
+
+
+## 사용 기술
+* Java 11
+* Spring Boot 2.4.2, Spring 5.3.1
+* MySQL 5.7
